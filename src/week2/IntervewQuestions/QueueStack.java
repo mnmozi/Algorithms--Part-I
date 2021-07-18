@@ -2,8 +2,7 @@ package week2.IntervewQuestions;
 
 import edu.princeton.cs.algs4.Stack;
 
-// Question 1
-// Queue with two stacks. Implement a queue with two stacks so that each queue operations takes a constant amortized number of stack operations.
+// Question 1 Queue with two stacks.
 public class QueueStack<Item> {
     Stack<Item> inbox;
     Stack<Item> outbox;

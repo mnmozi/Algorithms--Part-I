@@ -46,14 +46,12 @@ public class InterviewMergeSort {
     }
 
     // ----------
-    // Counting inversions. An inversion in an array a[] is a pair of entries
-    // a[i] and a[j] such that i < j but a[i] > a[j]. Given an
-    // array, design a linearithmic algorithm to count the number of inversions.
+    // Question 2 Counting inversions.
 
     // we just add a counter and increment it when we find that the element in the
     // right subarray is bigger than the left one
 
-    // Shuffling a linked list
+    // Question 3 Shuffling a linked list.
     public class Node {
         Comparable item;
         Node next;

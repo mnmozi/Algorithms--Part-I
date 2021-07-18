@@ -6,11 +6,6 @@ import edu.princeton.cs.algs4.Stack;
 // Stack with max. Create a data structure that efficiently supports the stack operations (push and pop) 
 //and also a return-the-maximum operation. Assume the elements are real numbers so that you can compare them.
 
-//Question 3
-// Java generics. Explain why Java prohibits generic array creation.
-//https://stackoverflow.com/questions/2927391/whats-the-reason-i-cant-create-generic-array-types-in-java
-//https://github.com/eschwabe/interview-practice/blob/master/coursera/algorithms-part1/stacks-and-queues/Generics.txt
-
 public class StackMax<Item extends Comparable<Item>> {
     Stack<Item> stack;
     Stack<Item> order;
@@ -43,6 +38,11 @@ public class StackMax<Item extends Comparable<Item>> {
     public Item popMax() {
         return order.pop();
     }
+
+    // Question 3
+    // Java generics. Explain why Java prohibits generic array creation.
+    // https://stackoverflow.com/questions/2927391/whats-the-reason-i-cant-create-generic-array-types-in-java
+    // https://github.com/eschwabe/interview-practice/blob/master/coursera/algorithms-part1/stacks-and-queues/Generics.txt
 
     public static void main(String[] args) {
         StackMax<Integer> test = new StackMax<>();
