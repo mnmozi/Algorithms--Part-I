@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/algs4.jar"
+    ],
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.project.sourcePaths": [
+        "src"
+    ]
+}
