@@ -1,4 +1,4 @@
-package week5;
+package week5.Assignment;
 
 import java.util.ArrayList;
 

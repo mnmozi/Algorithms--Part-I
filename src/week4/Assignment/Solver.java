@@ -1,4 +1,4 @@
-package week4;
+package week4.Assignment;
 
 import java.util.ArrayDeque;
 import java.util.Comparator;
